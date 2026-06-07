@@ -1,9 +1,9 @@
 use gpui::*;
- 
+
 struct HelloWorld {
     text: SharedString,
 }
- 
+
 impl Render for HelloWorld {
     fn render(&mut self, _window: &mut Window, _cx: &mut Context<Self>) -> impl IntoElement {
         div()
